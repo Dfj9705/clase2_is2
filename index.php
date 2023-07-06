@@ -7,7 +7,7 @@
     <title>Manipulación del DOM</title>
 </head>
 <body>
-    <h1 id="tituloPagina" class="text-success">MANIPULACIÓN DEL DOM</h1>
+    <h1 id="tituloPagina" class="text-success fw-bold">MANIPULACIÓN DEL DOM</h1>
     <br>
     <button id="botonClick">Click</button>
     <br>
@@ -22,9 +22,9 @@
     <br>
     <div class="row">
         <div class="col">
-            <form action="">
+            <form >
                 <label for="email">Correo electrónico</label>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" value="texto de prueba ">
             </form>
         </div>
     </div>
